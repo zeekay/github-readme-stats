@@ -131,8 +131,8 @@ const renderGistCard = (gistData, options = {}) => {
   });
 
   card.setCSS(`
-    .description { font: 400 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: ${textColor} }
-    .gray { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: ${textColor} }
+    .description { font: 400 13px 'Geist', 'Segoe UI', Ubuntu, Sans-Serif; fill: ${textColor} }
+    .gray { font: 400 12px 'Geist', 'Segoe UI', Ubuntu, Sans-Serif; fill: ${textColor} }
     .icon { fill: ${iconColor} }
   `);
   card.setHideBorder(hide_border);

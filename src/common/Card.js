@@ -2,6 +2,7 @@
 
 import { encodeHTML } from "./html.js";
 import { flexLayout } from "./render.js";
+import { geistFontFaces, GEIST_FONT } from "./geist-font.js";
 
 class Card {
   /**
@@ -219,8 +220,9 @@ class Card {
         <title id="titleId">${this.a11yTitle}</title>
         <desc id="descId">${this.a11yDesc}</desc>
         <style>
+          ${geistFontFaces}
           .header {
-            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+            font: 600 18px ${GEIST_FONT};
             fill: ${this.colors.titleColor};
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
