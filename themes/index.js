@@ -1,4 +1,20 @@
 export const themes = {
+  mono_dark: {
+    title_color: "e6edf3",
+    icon_color: "848d97",
+    text_color: "9198a1",
+    bg_color: "0d1117",
+    border_color: "30363d",
+    ring_color: "e6edf3",
+  },
+  mono_light: {
+    title_color: "1f2328",
+    icon_color: "656d76",
+    text_color: "656d76",
+    bg_color: "ffffff",
+    border_color: "d1d9e0",
+    ring_color: "1f2328",
+  },
   default: {
     title_color: "2f80ed",
     icon_color: "4c71f2",
